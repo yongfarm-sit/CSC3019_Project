@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch cache and model checkpoints
+*.pt
+*.pth
+checkpoints/
+runs/
+logs/
+
+# Dataset files
+data/
+*.zip
+*.tar.gz
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Logs and debug
+*.log
+
+# Python env config
+*.egg-info/
+dist/
+build/
+
+# Colab / notebook temporary
+*.nbconvert.ipynb
+
+# Images and plots generated during EDA or training
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Ignore result outputs
+results/
+outputs/
